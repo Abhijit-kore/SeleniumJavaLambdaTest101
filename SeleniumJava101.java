@@ -160,17 +160,17 @@ capabilities);
 
         // Fill in Name, Email, and other fields
         WebElement nameField = driver.findElement(By.id("name"));
-        nameField.sendKeys("John Doe");
+        nameField.sendKeys("Auto test");
 
  
 
         WebElement emailField = driver.findElement(By.xpath("//div//label[normalize-space()='Email*']/following-sibling::input"));
-        emailField.sendKeys("johndoe@example.com");
+        emailField.sendKeys("test@example.com");
 
  
 
         WebElement passwordField = driver.findElement(By.xpath("//div//label[normalize-space()='Password*']/following-sibling::input"));
-        passwordField.sendKeys("Abc@123");
+        passwordField.sendKeys("Pass@123");
 
  
 
@@ -200,9 +200,9 @@ capabilities);
  
 
         WebElement addressField = driver.findElement(By.id("inputAddress1"));
-        addressField.sendKeys("123 Street");
+        addressField.sendKeys("abc Street");
         WebElement addressField1 = driver.findElement(By.id("inputAddress2"));
-        addressField1.sendKeys("1234 Street");
+        addressField1.sendKeys("xyz Street");
 
  
 
@@ -212,7 +212,7 @@ capabilities);
  
 
         WebElement zipField = driver.findElement(By.xpath("//div//label[normalize-space()='Zip Code*']/following-sibling::input"));
-        zipField.sendKeys("422107");
+        zipField.sendKeys("416115");
 
  
 
